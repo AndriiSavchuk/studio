@@ -75,7 +75,11 @@ body {
 
 .nav-bar li {
 	float: left;
-	padding-right: 40px;
+	margin-right: 40px;
+}
+
+.nav-bar li:last-child {
+	margin-right: 0px;
 }
 
 .nav-bar li a {
@@ -85,16 +89,10 @@ body {
 	font-size: 14px;	
 }
 
-.nav-bar li:last-child {
-	margin-right: 0;
-}
-
 .nav-bar li a:hover {
 	text-decoration: none;
 	color: #fed136;
 }
-
-
 
 #home h3 {
 	margin-bottom: 40px;
