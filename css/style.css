@@ -1,4 +1,4 @@
-  @import url(reset.css);
+ @import url(reset.css);
 
 html.js .loader {
 	background: none repeat scroll 0 0 #ffffff;
@@ -35,21 +35,25 @@ body {
 	background-color: #fff;		
 }
 
-/*.container {
-	width: 1170px;
-	margin: 0 auto;
-}*/
-
 
 /*-------------HEADER------------------*/
+
 
 #header {
 	position: absolute;
 	top: 20px;
 	left: 0;
 	right: 0;
+	z-index: 9999;
 	width: 100%;
 	padding: 20px 0;	
+}
+
+#header.default {
+	position: fixed;
+	top: 0;
+	background: rgba(85, 85, 85, 0.95);
+	border-bottom: 2px solid #404040;
 }
 
 #home {
@@ -131,7 +135,7 @@ body {
 
 
 
-
+/*------------------------------------------*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
