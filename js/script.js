@@ -1,11 +1,11 @@
-//Preloader
+/*Preloader*/
 
 $(window).load(function() {
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 });
 
-//Fixed header
+/*Fixed header*/
 
 $(document).ready(function(){	
 	$("#header").removeClass("default");
