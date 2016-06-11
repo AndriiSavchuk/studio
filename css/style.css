@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
 }
 
@@ -44,17 +44,18 @@ body {
 	padding: 120px 0;  /*Paddings for all sections*/
 }
 
-.services-block,
-.portfolio-block,
-.about-block {
-	padding-top: 60px;
-}
-
 .left {float: left;}
 .right {float: right;}
 
 .text-left {text-align: left;}
 .text-right {text-align: right;}
+
+.services-block,
+.portfolio-block,
+.about-block,
+.team-block {
+	padding-top: 60px;
+}
 
 
 /*-------------HEADER------------------*/
@@ -296,6 +297,49 @@ h5.title {
 	color: #fff;
 
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+
+
+/*---------SECTION TEAM-----------*/
+
+#team {
+	text-align: center;
+	background: #f7f7f7;
+}
+
+.team-item {
+	float: left;
+	width: 33%;
+}
+
+.team-item img {
+	margin-bottom: 15px;
+	border: 7px solid #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.position {
+	font-size: 14px;
+	color: #777;
+}
+
+.social {
+	margin-top: 10px;
+}
+
+.social a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 3px solid #222;
+	margin: 0 3px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
 }
 
 
